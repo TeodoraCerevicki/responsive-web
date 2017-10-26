@@ -1,0 +1,46 @@
+@import 'variables';
+
+// Headline
+
+.headline {
+    padding: 36px;
+    width: 60%;
+}
+
+// Value box
+
+.value {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 164px auto;
+    padding: 31px;
+    width: 100%;
+    
+    .box {
+        text-align: center;
+        width: 335px;
+        height: 198px;
+
+        
+        i {
+            font-size: 22px;
+            padding: 17px;
+            position: relative;
+            top: 72px;
+        }
+        
+        p {
+            margin: 42px 0 0 0;
+            padding: 42px 0;
+        }
+        
+        
+    
+    }
+    
+  .communication {
+        background-position-y: -15px;
+
+    }
+}

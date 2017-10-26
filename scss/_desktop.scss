@@ -1,0 +1,43 @@
+@import 'variables';
+
+// Value box
+
+.value {
+    background: #eee;
+    display: block;
+    margin: 164px auto;
+    padding: 31px;
+    width: 100%;
+    
+    .box {
+        text-align: center;
+        margin: 64px auto;
+        width: 80%;
+        height: 261px;
+
+        
+        i {
+            color: #49ce37;
+            background: #fff;
+            border-radius: 50%;
+            font-size: 22px;
+            padding: 17px;
+            position: relative;
+            top: 102px;
+        }
+        
+        p {
+            background: #fff;
+            margin: 70px 0 0 0;
+            padding: 60px 0;
+        }
+    }
+    
+    
+    .communication {
+        background-position-y: -159px;
+
+    }
+}
+
+

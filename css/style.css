@@ -1,0 +1,129 @@
+.slider img {
+  width: 100%;
+  max-height: 500px;
+  position: relative;
+  z-index: -1; }
+
+.headline {
+  background: #fff;
+  border: 4px solid #9fa1a5;
+  margin: -49px auto 50px;
+  padding: 18px;
+  width: 80%;
+  z-index: 2 !important; }
+  .headline h1 {
+    margin-bottom: 10px; }
+  .headline p {
+    margin-bottom: 29px; }
+  .headline .user {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .headline .user a {
+      color: #ff990a; }
+    .headline .user img {
+      border-radius: 50%;
+      height: 35px;
+      width: 35px; }
+
+.value {
+  background: #eee;
+  display: block;
+  margin: 164px auto;
+  padding: 31px;
+  width: 100%; }
+  .value .box {
+    text-align: center;
+    margin: 64px auto;
+    width: 80%;
+    height: 223px; }
+    .value .box i {
+      color: #49ce37;
+      background: #fff;
+      border-radius: 50%;
+      font-size: 22px;
+      padding: 17px;
+      position: relative;
+      top: 91px; }
+    .value .box p {
+      background: #fff;
+      margin: 60px 0 0 0;
+      padding: 46px 0; }
+  .value .health {
+    background: url(../img/food.jpg);
+    background-size: cover; }
+  .value .fit {
+    background: url(../img/fitness.jpg);
+    background-size: cover; }
+  .value .communication {
+    background: url(../img/comm.jpg);
+    background-size: cover; }
+
+@media screen and (min-width: 576px) {
+  .communication {
+    background-position-y: -38px; } }
+
+@media screen and (min-width: 992px) {
+  .value {
+    background: #eee;
+    display: block;
+    margin: 164px auto;
+    padding: 31px;
+    width: 100%; }
+    .value .box {
+      text-align: center;
+      margin: 64px auto;
+      width: 80%;
+      height: 261px; }
+      .value .box i {
+        color: #49ce37;
+        background: #fff;
+        border-radius: 50%;
+        font-size: 22px;
+        padding: 17px;
+        position: relative;
+        top: 102px; }
+      .value .box p {
+        background: #fff;
+        margin: 70px 0 0 0;
+        padding: 60px 0; }
+    .value .communication {
+      background-position-y: -159px; } }
+
+@media screen and (min-width: 1200px) {
+  .headline {
+    padding: 36px;
+    width: 60%; }
+  .value {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 164px auto;
+    padding: 31px;
+    width: 100%; }
+    .value .box {
+      text-align: center;
+      width: 335px;
+      height: 198px; }
+      .value .box i {
+        font-size: 22px;
+        padding: 17px;
+        position: relative;
+        top: 72px; }
+      .value .box p {
+        margin: 42px 0 0 0;
+        padding: 42px 0; }
+    .value .communication {
+      background-position-y: -15px; } }
